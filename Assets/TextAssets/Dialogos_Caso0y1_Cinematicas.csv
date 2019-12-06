@@ -1,0 +1,135 @@
+﻿ID@Locutor@Dialogue Link@ESP@ENG@Thinks@Speed@Shake@Flash@Animation@Sound@Music@
+@IGNORE/DO NOT TOUCH@@@@@@@@@@@
+@@@@@@slow@*@*@idle@@@
+@@@@@@fast@**@**@nervous @@@
+@@@@@@normal@***@***@surprised@@@
+@@@@@@@@@angry@@@
+@@@@@@@@@sad@@@
+@@@@@@@@@asleep@@@
+@@@@@@@@@thinking@@@
+@@@@@@@@@itchy smile@@@
+@@@@@@@@@serious@@@
+@@@@@@@@@peals of laughter@@@
+@@@@@@@@@embarrassed@@@
+@@@@@@@@@giving object@@@
+@@@@@@@@@writting@@@
+@@@@@@@@@happy@@@
+@@@@@@@@@@@@
+@Capítulos 0 y 1 - Cinemáticas@@@@@@@@@@@
+@CINEMATIC #1: WITCH REUNION/Cinemática de apertura (Arrabal Maldito)@@@@@@@@@@@
+@FADE IN@@@@@@@@@@@
+@Corte. Plano general Arrabal Maldito@@@@@@@@@@@
+@Corte. Plano plaza Arrabal Maldito@@@@@@@@@@@
+@"Corte. Plano casa+""puente"" Arrabal Maldito"@@@@@@@@@@@
+@Corte. Plano cercano al suelo, focus hecho a lo que hay cerca de la cámara. @@@@@@@@@@@
+@Una rata pasa por delante, cerca de la cámara. Refocus para ver cuatro figuras oscuras al fondo del plano.@@@@@@@@@@@
+@La cámara comienza a moverse hacia estas figuras, mientras que comienzan a hablar@@@@@@@@@@@
+C0y1_Cin0_D1@Médico de la Peste@@¿Están listos los preparativos?@@@@@@nervous @@@
+C0y1_Cin0_D1@Figura Enmascarada 1@C0y1_Cin0_D2@No hay por qué ser tan impaciente, querido. Todo está yendo como la seda.@@@@@@serious@@@
+@Corte. Plano general en el que se ven a los cuatro personajes. Fausto es el que está frente a la cámara. Travelling lento hacia ellos@@@@@@@@@@@
+C0y1_Cin0_D2@Médico de la Peste@@Eso lo decidiré yo. Cumplid vuestra parte del trato primero.@@@@@@serious@@@
+C0y1_Cin0_D2@Figura Enmascarada 2@@¿Todavía desconfías tanto de nosotras?@@@@@@thinking@@@
+C0y1_Cin0_D2@Figura Enmascarada 2@@Llevamos trabajando juntos durante dos años. Todo saldrá bien, ya lo verás...@@@@@@idle@@@
+@(La cámara está ya bastante cerca y se centra en Fausto, girando sobre él para seguir alejándose)@@@@@@@@@@@
+C0y1_Cin0_D3@Médico de la Peste@@La confianza es algo que no se gana solo con el tiempo. Ya he esperado demasiado, y quiero resultados.@@@@@@serious@@@
+C0y1_Cin0_D3@Figura Enmascarada 1@@Y los tendrás... antes de que termine la noche.@@@@@@itchy smile@@@
+C0y1_Cin0_D5@Figura Enmascarada 1@@Ju, ju, ju. Supongo que es hora de levantar el telón, ¿verdad, hermana?@@@@@@itchy smile@@@
+@Corte. Plano centrado en figura enmascarada 3, picado. Travelling lentamente hasta perderse en la oscuridad de la cuenca del ojo de su máscara@@@@@@@@@@@
+C0y1_Cin0_D4@Figura Enmascarada 3@@Aquel que hace temblar a santos y reyes volverá a la vida.@@@@@@serious@@@
+C0y1_Cin0_D4@Figura Enmascarada 3@@Sembrará la semilla de la discordia en este mundo, y lo arrasará con fuego hasta volver la tierra baldía y estéril.@@@@@@@@@
+C0y1_Cin0_D4@Figura Enmascarada 3@@Pues así está escrito en las estrellas del firmamento...@@@@@@@@@
+@FADE OUT@@@@@@@@@@@
+@@@@@@@@@@@@
+@CINEMATIC #2: Cinemática de inicio de ordalía (CÁMARA DE LA ORDALÍA)@@@@@@@@@@@
+@FADE IN@@@@@@@@@@@
+@Cámara comienza en las puertas de la Cámara de la Ordalía@@@@@@@@@@@
+@Las puertas se abren y la cámara hace un travelling a través del pasillo que forman guardias, a ras de suelo@@@@@@@@@@@
+@Poco a poco la cámara asciende mientras que avanza hasta la Jaula en la que se encuentra Vivienne suspendida@@@@@@@@@@@
+@La cámara gira alrededor de la jaula y comienza a alejarse hasta terminar en un plano general de la cámara de la ordalía y de su tribunal@@@@@@@@@@@
+@No hay FADE OUT, enlazar con el resto de cámaras del juicio@@@@@@@@@@@
+@@@@@@@@@@@@
+@CINEMATIC #3: Cinemática de muerte en la hoguera/Tras morir en tutorial (CÁMARA DE LA ORDALÍA)@@@@@@@@@@@
+@FADE IN@@@@@@@@@@@
+@(Interior de Cámara de la Ordalía) Jaula de Vivienne tirada en el suelo, y Vivienne siendo abucheada por los aldeanos@@@@@@@@@@@
+@FADE OUT@@@@@@@@@@@
+@FADE IN@@@@@@@@@@@
+@(Exterior) Hoguera preparada, y de Vivienne siendo escoltada por guardias@@@@@@@@@@@
+@FADE OUT@@@@@@@@@@@
+@FADE IN@@@@@@@@@@@
+@Vivienne atada a la hoguera@@@@@@@@@@@
+@FADE OUT@@@@@@@@@@@
+@FADE IN@@@@@@@@@@@
+@Guardia prendiendo fuego a la hoguera@@@@@@@@@@@
+@FADE OUT@@@@@@@@@@@
+@FADE IN@@@@@@@@@@@
+@Viviane siendo quemada en la hoguera. Se oye un grito.@@@@@@@@@@@
+@FADE OUT@@@@@@@@@@@
+@@@@@@@@@@@@
+@CINEMATIC #4: Cinemática de pacto con Malaab (Mundo Onírico)@@@@@@@@@@@
+@FADE IN@@@@@@@@@@@
+@(Fondo completamente en negro)@@@@@@@@@@@
+@(Los diálogos de Malaab aparecen con textos en blanco que parecen temblar)@@@@@@@@@@@
+C0y1_Cin4_D1@Malaab@@¿No te parece irónico el destino?@@@@@@@@@
+C0y1_Cin4_D1@Malaab@@Tú, que ahora eres pasto de las llamas, escucha mis palabras...@@@@@@@@@
+C0y1_Cin4_D1@Malaab@@Ayer solías velar por aquellos que hoy maldicen tu nombre...@@@@@@@@@
+C0y1_Cin4_D1@Malaab@E1_C0y1_Cin4@¿De verdad deseas que este sea el final de tu viaje?@@@@@@@@@
+@@@@@@@@@@@@
+E1_C0y1_Cin4@@C0y1_Cin4_D1_1@Quiero otra oportunidad@@@@@@@@@
+E1_C0y1_Cin4@@C0y1_Cin4_D1_2@Deseo descansar en paz@@@@@@@@@
+@@@@@@@@@@@@
+C0y1_Cin4_D1_1@Malaab@C0y1_Cin4_D2@¡Ding! ¡Ding! ¡Ding! ¡Respuesta correcta!@@@@@@@@@
+@@@@@@@@@@@@
+C0y1_Cin4_D1_2@Malaab@@¿Oh? ¿De verdad? ¿Crees que es gracioso llevarme la contraria?@@@@@@@@@
+C0y1_Cin4_D1_2@Malaab@C0y1_Cin4_D2@Ja... Ja... Ja.@@@slow@@@@@@
+@@@@@@@@@@@@
+C0y1_Cin4_D2@@@Iré directo al grano: te he estado vigilando durante mucho, mucho tiempo. Lo suficiente como para saber que me caes bien.@@@@@@@@@
+C0y1_Cin4_D2@@@Puedes considerarme... tu amigo, así que he venido a ofrecerte un trato que no podrás rechazar...@@@@@@@@@
+@@@@@@@@@@@@
+C0y1_Cin4_D3@@@¡Te daré la oportunidad de enmendar tus errores! ¡El poder de volver a empezar cuando la situación se vuelva especialmente desfavorable!@@@@@@@@@
+C0y1_Cin4_D3@@@¡El tiempo será un títere, y tú la titiritera!@@@@@@@@@
+C0y1_Cin4_D3@@E2_C0y1_Cin4@¿Qué me dices? Suena tentador, ¿no?@@@@@@@@@
+@@@@@@@@@@@@
+E2_C0y1_Cin4@@C0y1_Cin4_D3_1@¿Qué es lo que quieres a cambio?@@@@@@@@@
+E2_C0y1_Cin4@@C0y1_Cin4_D3_2@...@@@@@@@@@
+@@@@@@@@@@@@
+C0y1_Cin4_D3_1@Malaab@@Oh, ¡nada en especial! Tan solo que me permitas estar a tu lado a partir de ahora en adelante.@@@@@@@@@
+C0y1_Cin4_D3_1@Malaab@C0y1_Cin4_D4@¿Acaso tienes algo que perder?@@@@@@@@@
+@@@@@@@@@@@@
+C0y1_Cin4_D3_2@Malaab@@... ¿Me estás... ignorando?@@@@@@@@@
+C0y1_Cin4_D3_3@Malaab@@Sabes que puedo seguir hablándote durante semanas ininterrumpidamente hasta que me respondas, ¿no?@@@@@@@@@
+C0y1_Cin4_D3_2@Malaab@C0y1_Cin4_D4@Me gusta oír el sonido de mi propia voz, así que... a ver quién se aburre antes.@@@@@@@@@
+@@@@@@@@@@@@
+C0y1_Cin4_D4@Malaab@@Resumiendo: seamos socios. ¿Qué podría salir mal?@@@@@@@@@
+C0y1_Cin4_D4@Malaab@@Tú me dejas divertirme un poco, y yo te permito controlar el tiempo a tu antojo.@@@@@@@@@
+C0y1_Cin4_D4@Malaab@E3_C0y1_Cin4@Así que, ¿qué me dices? ¿Trato hecho?@@@@@@@@@
+@@@@@@@@@@@@
+E3_C0y1_Cin4@@C0y1_Cin4_D4_1@Trato hecho@@@@@@@@@
+E3_C0y1_Cin4@@C0y1_Cin4_D4_2@Deja que me lo piense@@@@@@@@@
+E3_C0y1_Cin4@@C0y1_Cin4_D4_3@No, gracias@@@@@@@@@
+@@@@@@@@@@@@
+C0y1_Cin4_D4_1@Malaab@@¡PERRRFECTO! Ahora somos amigos. ¡Los mejores amigos del mundo mundial!@@@@@@@@@
+C0y1_Cin4_D4_1@Malaab@C0y1_Cin4_D5@¿Ves? No era tan difícil.@@@@@@@@@
+@@@@@@@@@@@@
+C0y1_Cin4_D4_2@Malaab@@¡Sin presiones! Tómate todo el tiempo que quieras...@@@@@@@@@
+C0y1_Cin4_D4_2@Malaab@@...@@@@@@@@@
+C0y1_Cin4_D4_2@Malaab@@No es como si te estuvieses quemando viva en estos momentos...@@@@@@@@@
+C0y1_Cin4_D4_2@Malaab@@...@@@@@@@@@
+C0y1_Cin4_D4_2@Malaab@@O que yo me esté aburriendo.@@@@@@@@@
+C0y1_Cin4_D4_2@Malaab@@...@@@@@@@@@
+@VUELVE A E3_C0y1_Cin4@@@@@@@@@@@
+@@@@@@@@@@@@
+C0y1_Cin4_D4_3@Malaab@@Oh, venga ya... ¿Estás segura de rechazar mi regalo?@@@@@@@@@
+C0y1_Cin4_D4_3@Malaab@E4_C0y1_Cin4@A este paso morirás, ¿entiendes? ¡Fin de la partida!@@@@@@@@@
+@@@@@@@@@@@@
+E4_C0y1_Cin4@@@Pensándomelo mejor…@@@@@@@@@
+@VUELVE A E3_C0y1_Cin4@@@@@@@@@@@
+E4_C0y1_Cin4@@@Deseo morir@@@@@@@@@
+@SALTA A GAME OVER@@@@@@@@@@@
+@@@@@@@@@@@@
+C0y1_Cin4_D5@Malaab@@Ahora... tal y como te prometí... te permitiré viajar atrás en el tiempo.@@@@@@@@@
+C0y1_Cin4_D5@Malaab@@Regresemos a un momento en el que aún podías salvar tu propia vida.@@@@@@@@@
+C0y1_Cin4_D5@Malaab@@Aprende de tus errores del pasado, y cambia tu destino, pues a partir de ahora no te dejaré morir sin mi permiso.@@@@@@@@@
+@FADE OUT MIENTRAS QUE LA RISA DE MALAAB COMIENZA A SONAR CADA VEZ MÁS LEJOS@@@@@@@@@@@
+@@@DESPUÉS SALTA AUTOMÁTICAMENTE ANIMACIÓN DEL REINICIO DEL DÍA@@@@@@@@@
+@@@@@@@@@@@@
+@@@@@@@@@@@@

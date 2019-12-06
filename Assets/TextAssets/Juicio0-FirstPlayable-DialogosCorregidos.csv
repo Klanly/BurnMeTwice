@@ -1,0 +1,54 @@
+﻿ID@Locutor (ENG)@Dialogue Link@ESP@ENG@Thinks@Speed@Shake@Flash@Animation@Sound@Music
+IGNORE@@@@@@@@@@@
+@@@@@@slow@*@*@idle@@
+@@@@@@fast@**@**@nervous @@
+@@@@@@normal@***@***@angry@@
+@@@@@@@@@@@
+J0_Ev1@Escriba@@Vivienne, bruja al servicio de la Inquisición...@Vivienne, a witch at service of the inquisition...@@@@@@@
+J0_Ev1@Escriba@@acusa de asesinato y brujería al <color=#d36bfa>doctor Fausto Osler</color>...@...Accuses Dr. Fausto Osler of murder and witchcraft...@@@@@@@
+J0_Ev1@Escriba@@Presuntamente el <color=#d36bfa>doctor Fausto</color> ha intentado invocar a un <color=#d36bfa>demonio</color> para obtener conocimientos arcanos, ofreciendo una vida inocente a cambio.@Presumably Dr. Osler has tried to summon a <color=red>demon</color> to acquire arcane knowledge, offering a life of an innocent.@@@@@@@
+J0_Ev1_1@Magistrado@@Doctor Fausto Osler, ¿Qué tiene que alegar en su defensa? @Dr. Fausto Osler, what do you have to claim in your defense?@@@@@@@
+J0_Ev1_2@Dr. Fausto@@Magistrado, he estado encerrado en casa todo el tiempo. Estoy investigando una cura para mi hija enferma... <color=#d36bfa>No he salido de casa</color>.@Magistrate, I have been locked up at home all these days studying a cure for my sick daughter... I have not left my home.@@@@@@@
+J0_Ev1_3@Magistrado@@Ya veo...@I see…@@@@@@@
+J0_Ev1_3@Magistrado@@Antes de empezar me gustaría asegurarme de que la bruja conoce nuestros procedimientos, y que está al tanto de los detalles del caso.@Before we start I'd like to make sure that the witch know the procedure and the specifics of this case.@@@@@@@
+J0_Ev1_3@Magistrado@@Bruja, ¿qué puede contarme acerca de la víctima?@Witch. What can you tell me about the victim?@@@@@@@
+J0_Ev1_4@Vivienne@@<color=#71a7f8>(Apunté esta información en alguna parte...)</color>@<color=#36E5DA>(I wrote this down somewhere...)</color>@@@@@@@
+J0_Ev1_4@Vivienne@E1@<color=#71a7f8>(¿Cómo era la descripción de la víctima?)</color>@<color = green> (How was the victim description?) </color>@@@@@@@
+Evento abrir court record@@@@@@@@@@@
+E1@@J0_Ev2@Era hombre@It was a man.@@@@@@@
+E1@@J0_Ev3_1@Era mujer@It was a woman.@@@@@@@
+@@@@@@@@@@@
+J0_Ev2@Magistrado@@Gran demostración de su negligencia, bruja. Está claro que no ha debido examinar usted a la victima o leer el informe, puesto que la víctima era obviamente una mujer.@Great demonstration of your negligence, witch. It is clear that you should not have seen the victim or read the report since she was obviously a woman.@@@**@**@@@
+J0_Ev2@Magistrado@J0_Ev3@Siguiente pregunta.@Next question.@@@@@@@
+@@@@@@@@@@@
+J0_Ev3_1@Magistrado@J0_Ev3@Así es.@That is correct. @@@*@*@@@
+J0_Ev3@Magistrado@E2@¿Cómo se llamaba la víctima?@What was the victim's name?@@@@@@@
+@@@@@@@@@@@
+E2@@J0_Ev4@Horacio@Harold@@@@@@@
+E2@@J0_Ev5_1@Constanza@Constance@@@@@@@
+@@@@@@@@@@@
+J0_Ev4@Magistrado@@A los hechos me remito: es usted una completa inepta. El nombre de la víctima era Constanza, como su constancia a la hora de cometer errores.@I refer to the facts, you are a total inept. The victim's name was Constance, like your constant mistakes.@@@**@**@@@
+J0_Ev4@Magistrado@J0_Ev5_1@Última pregunta.@Last question.@@@@@@@
+@@@@@@@@@@@
+J0_Ev5@Magistrado@@Muy bien.@Very well.@@@*@*@@@
+J0_Ev5_1@Magistrado@E3@¿Y cómo <color=#d36bfa>murió</color>?@And how she <color=red>died?</color>@@@*@*@@@
+@@@@@@@@@@@
+E3@@J0_Ev5_2@Degollada@Beheaded.@@@@@@@
+E3@@J0_Ev6_0@Apuñalada en el corazón@Stabbed in the heart.@@@@@@@
+@@@@@@@@@@@
+J0_Ev5_2@Magistrado@@... Una vez más, se equivoca. Murió <color=#d36bfa>apuñalada en el corazón.</color> Creo que hemos terminado... @... Once again your wrong.She was <color=red>stabbed in the heart.</color> I think we are done here...@@@**@**@@@
+@@@@@@@@@@@
+J0_Ev6_0@Magistrado@@Veo que está todo en orden. Excelente, pero... ¿qué tiene que ver el doctor con el crimen? ¿Tiene alguna prueba?@I see you are very well informed, but..What does the doctor have to do with the crime? Do you have any evidence?@@@*@*@@@
+@@@@@@@@@@@
+J0_Ev6_1@Vivienne@@Así es, Magistrado. Aquí tengo su <color=#d36bfa>cuaderno de notas</color> en el que menciona extraños experimentos y unos ingredientes a adquirir.@That's right, Magistrate. Here is <color=red>his notebook</color> in which he mentions strange experiments and some ingredients to get.@@@@@@@
+Evento abrir court record@@@@@@@@@@@
+J0_Ev6@Magistrado@J0_Ev7@Esto no tiene nada que ver con el caso.@This is only the personal notes of the dotor and his studies, as well as a shopping list of medicinal ingredients.@@@@@@@
+@@@Se sumerge al jugador en el pozo y pierde más Jury´s trust @@@@@@@@
+J0_Ev7@Magistrado@E4@¿Tiene o no algún tipo de prueba que <color=#d36bfa>relacione el crimen con este hombre</color>, antes de que la condene a <color=#d36bfa>muerte</color>?@Do you have any type of <color=yellow>evidence that relates the crime to this man</color>, before i sentence you to <color=red>die?</color>@@fast@@@@@
+@@@@@@@@@@@
+E4@Vivienne@J0_Ev8@No, Magistrado@No, your Magistrate.@@@@@@@
+E4@Vivienne@J0_Ev8@Sí, Magistrado... os veré pronto a todos en el infierno@Yes, Your Magistrate… I'll see you all in <color=red>hell</color> soon.@@@@@@@
+@@@@@@@@@@@
+J0_Ev8@Magistrado@@Visto la <color=#d36bfa>falta de pruebas</color>, su falsa acusación a un inocente, además de ser una sucia bruja… @Given the lack of evidence, your false accusation of an innocent, besides being a filthy witch…@@@@@@@
+J0_Ev8@Magistrado@@… La sentencio a <color=#d36bfa>morir a la hoguera</color>. Que el señor se apiade de tu alma.@… I sentence you to <color=red>die at the stake</color>. May the Lord have mercy on your soul.@@@@@@@
+@@@@@@@@@@@

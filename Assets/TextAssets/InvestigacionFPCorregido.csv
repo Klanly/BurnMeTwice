@@ -1,0 +1,285 @@
+﻿ID@Locutor (ENG)@Dialogue Link@ESP@ENG@Thinks@Speed@Shake@Flash@Animation@Sound@Music
+@@@CHARACTER: GASPAR (Inquisitor)@@@@@@@@
+@IGNORE@@@@@@@@@@
+@@@@@@slow@*@*@idle@@
+@@@@@@fast@**@**@nervous@@
+@@@@@@normal@***@***@angry@@
+@@@@@@@@@@@
+@@@@@@@@@@@
+I1_Ev1@Gaspar@E1@¡Viviana! ¿Qué quieres?@Vivianne! What do you want?@@@@@@@
+@@@@@@@@@@@
+E1@@I1_Ev2@Recuérdame qué estaba haciendo@Remind me what I was doing@@@@@@@
+E1@@I1_Ev3@Vamos al juicio@Let's go to court@@@@@@@
+E1@@I1_Ev4@Nada@Nothing@@@@@@@
+@@@"""Remind me what I was doing"""@@@@@@@@
+I1_Ev2@Gaspar@@Una mujer llamada Costanza fue asesinada ayer. Ése es su cuerpo.@A woman named Constance was murdered today. That's her body.@@@@@angry@@
+I1_Ev2@Gaspar@@Nuestro principal sospechoso es el <color=#d36bfa>Doctor Fausto Osler</color>.@Our main suspect at the moment is <color=red>Doctor Fausto Osler</color>.@@@@@@@
+I1_Ev2@Gaspar@@En el pasado fue acusado de intentar invocar a un demonio, pero no hallamos pruebas que lo inculpasen.@He has been accused in the past of trying to summon the Devil, but no evidence was found against him.@@@@@@@
+I1_Ev2@Gaspar@@Su hija está muy enferma, así que ten cuidado y no te acerques mucho a ella. Podría ser contagioso.@Her daughter is very sick, so be careful and don't get close to her. It may be contagious.@@@@@nervous@@
+I1_Ev2@Gaspar@@Si pretendes culparle del asesinato de Costanza, necesitarás muchas pruebas que determinen <color=#d36bfa>cómo pudo hacerlo</color>.@If you want to go against him, you'll need plenty of proof about his motives to do it.@@@@@angry@@
+I1_Ev2@Gaspar@@Y digo MUCHAS. A este pueblo no le gustan las brujas como tú, precisamente.@And I mean PLENTY. This town doesn't love withes like you, precisely.@@@@@@@
+I1_Ev2@Gaspar@@Puedes consultarlas en cualquier momento pulsando <color=#22f007>SELECT</color>. Con esto abrirás el inventario.@@@@@@@@
+I1_Ev2@Gaspar@@Conociéndole, de ser de verdad el culpable habría necesitado algún tipo de instrumento para cometer el asesinato.@@@@@@@@
+I1_Ev2@Gaspar@@Prueba suerte en el <color=#d36bfa>mercado que hay calle arriba</color>, tal vez alguien sepa algo al respecto.@@@@@@@@
+@@@@"""Let's go to court"""@@@@@@@
+I1_Ev3@Gaspar@E2@¿Estás segura de querer empezar el juicio?@Are you sure you want to start the trial?@@@@@@@
+@@@@@@@@@@@
+E2@@I1_Ev3_1@Sí, creo que tengo todo lo que necesito@Yes, I think I have everything I need.@@@@@@@
+E2@@I1_Ev3_2@Mmm… No, no estoy preparada aún@Mmm… No, I'm not ready yet.@@@@@@@
+@@@@"""Yes, I think I have everything I need."""@@@@@@@
+I1_Ev3_1@Gaspar@@De acuerdo.@Alright then.@@@@@@@
+@@@@Event: Start trial@@@@@@@
+@@@@"""Mmm… No, I'm not ready yet."""@@@@@@@
+I1_Ev3_2@Gaspar@@Vale, avísame cuando estés lista.@Okey, tell me when you are prepared.@@@@@@@
+@@@@"""Nothing"""@@@@@@@
+I1_Ev4@Gaspar@@Si me necesitas, estaré por aquí.@I'll be around if you need me.@@@@@@@
+I1_Ev4@Gaspar@@Recuerda, tu objetivo es encontrar al <color=#d36bfa>Doctor Fausto</color>.  Suele ir diariamente al <color=#d36bfa>mercado que hay calle arriba</color>.@@@@@@@@
+I1_Ev4@Gaspar@@Si tienes suerte, puede que le encuentres en su casa más tarde. La distinguirás por su tejado de color <color=#d36bfa>verde</color>.@@@@@@@@
+@@@@@@@@@@@
+@@@CHARACTER: CLAUDE (merchant) - before player has Receipt evidence@@@@@@@@
+@@@@@@@@@@@
+I1_Ev5@Claude@E3@¿Qué vienes a comprar?@What're ya buyin?@@@@@@@
+@@@@@@@@@@@
+E3@@I1_Ev5_1@Tengo unas cuantas preguntas@I have a few questions@@@@@@@
+E3@@I1_Ev5_2@Nada@Nothing@@@@@@@
+@@@@"""I have a few questions"""@@@@@@@
+I1_Ev5_1@Claude@E4@¿Sobre la mercancía? Te aseguro que es de primera calidad.@About the merchandise? I can asure you that it's from the highest quality.@@@@@@@
+@@@@@@@@@@@
+E4@@I1_Ev5_1_1@Sí, háblame de tu tienda@Yes, tell me about your store@@@@@@@
+E4@@I1_Ev5_1_2@¿Qué sabes del Doctor?@What do you know about the doctor?@@@@@@@
+E4@@I1_Ev5_2@Lo siento, me tengo que ir@Sorry, I have to go@@@@@@@
+@@@@"""Yes, tell me about your store"""@@@@@@@
+I1_Ev5_1_1@Claude@@Bueno, no hay mucho de lo que hablar. Vendo ingredientes, especias y materiales para hacer cualquier cosa que imagines.@Well, there is not much to talk about. I sell ingredients, spices and materials to do anything you imagine@@fast@@@nervous@@
+I1_Ev5_1_1@Claude@@Heredé esta tienda de mi padre cuando cumplí los dieciséis. Que su alma descanse en paz.@I inherited this shop from my father when I was sixteen. May his soul rest in peace.@@fast@*@@@@
+I1_Ev5_1_1@Claude@E5@Fue un hombre de pocas palabras, pero era un gran hombre de negocios…@He was a man of few words, but he was a great business man…@@fast@*@@@@
+@@@@@@@@@@@
+E5@@I1_Ev5_1_2@Vale, esto ha sido un error. Tan solo háblame sobre el Doctor@Okey, this was a mistake. Just tell me about the doctor@@@@@@@
+E5@@I1_Ev5_2@Me tengo que ir… Perdón por interrumpir tu relato@I'm just going to leave… Sorry to interrupt your story@@@@@@@
+@@@@"""What do you know about the doctor?"""@@@@@@@
+I1_Ev5_1_2@Claude@@Es un buen cliente. Su hija está enferma y él compra <color=#d36bfa>ingredientes</color> para hacer sus medicinas.@He is a very good client of mine. His daughter is sick and he buys here many <color=red>ingredients</color> to make her cures.@@@@@idle@@
+I1_Ev5_1_2@Claude@E6@Viene aquí casi a diario. Siempre es muy amable. Como he dicho: un buen cliente.@He comes here almost daily. He's always very kind. As I said, a good costumer.@@@@@@@
+@@@@@@@@@@@
+E6@@I1_Ev5_1_2_1@¿No es excesivo comprar ingredientes a diario?@Buying ingredients everyday isn't a bit too much?@@@@@@@
+E6@@I1_Ev5_1_2_2@¿Y qué compra?@What does he buy?@@@@@@@
+E6@@I1_Ev5_2@Has sido de mucha ayuda. Muchas gracias@You've been very helpful. Thank you.@@@@@@@
+@@@@"""Buying ingredients everyday isn't a bit too much?"""@@@@@@@
+I1_Ev5_1_2_1@Claude@@Bueno, compra mucho más que el cliente medio, pero tiene una buena razón para ello.@Well, he buys a lot more than the average consumer, but he has a good cause.@@@@@@@
+I1_Ev5_1_2_1@Claude@E7@Como he dicho, intenta curar a su hija con medicinas que prepara con mis materiales.@As I said, he tries to cure her daughter with medicines he fabricates with my materials.@@@@@@@
+@@@@@@@@@@@
+E7@@I1_Ev5_1_2_2@¿Y qué compra?@What does he buy?@@@@@@@
+E7@@I1_Ev5_2@Has sido de mucha ayuda. Muchas gracias@You've been very helpful. Thank you.@@@@@@@
+@@@@"""What does he buy?"""@@@@@@@
+I1_Ev5_1_2_2@Claude@@Hierbas, especias… No recuerdo el qué específicamente, si te soy sincero.@Herbs, spices… I don't remember what specifically, if I'm honest.@@@@@nervous@@
+I1_Ev5_1_2_2@Claude@@¡Espera! Dame un minuto, debería tener un <color=#d36bfa>recibo</color> por algún lado…@Wait! Give me a minute, I may have a <color=red>receipt</color> laying around here…@@@@@idle@@
+I1_Ev5_1_2_2@Claude@@Aquí tienes, este es de lo que compró ayer. Te haré una copia si quieres.@Here, this is what he bought yesterday. I'll make you a copy if you want.@@@@@@@
+@@@@Player receives evidence: Receipt@@@@@@@
+@@@@End conversation@@@@@@@
+I1_Ev5_2@Claude@@Oh, vale. ¡Nos vemos!@Oh, okay. See you around!@@@@@@@
+@@@@@@@@@@@
+@@@CHARACTER: CONSTANCE (Victim)@@@@@@@@
+@@@@@@@@@@@
+I1_Ev6@Constance@@… … … ¿Quién eres?@… … … Who are you?@@@@@nervous@@
+I1_Ev6@Constance@@¿Y puedes verme?@And how can you see me?@@@@@@@
+I1_Ev6@Constance@E8@Siento tanto… tanto… frío…@I feel… So… So cold…@@@@@idle@@
+@@@@@@@@@@@
+E8@@I1_Ev6_1@¿Eres Constanza?@Are you Constance?@@@@@@@
+E8@@I1_Ev6_2@Eso es lo normal, estás muerta.@That's normal, you are dead@@@@@@@
+@@@@@@@@@@@
+I1_Ev6_1@Constance@E9@Sí, en carne y hueso.@Yes, in the flesh.@@@@@@@
+@@@@@@@@@@@
+E9@@I1_Ev6_2@Bueno… Ahora no, precisamente.@Well… Not exactly anymore@@@@@@@
+@@@@@@@@@@@
+I1_Ev6_2@Constance@@Oh… es verdad… E-estoy… muerta. Tal cual.@Oh… It's true… I'm… I'm… Dead. Just like that.@@@@@@@
+I1_Ev6_2@Constance@@Era tan joven, tan llena de vida, tan… ¡Oh no! ¡E-estoy volviendo a entrar en pánico!@I was so young, so full of life, so… Oh no… I'm panicking again!@@@@@nervous@@
+I1_Ev6_2@Constance@@Perdona, todavía no estoy acostumbrada a ver mi propio cadaver.@Sorry, I'm not used to seeing my own dead body yet.@@@@@@@
+@@@@@@@@@@@
+E10@@I1_Ev6_1_1@Constanza, deja de hiperventilar, necesito que me respondas varias preguntas@Constance, stop hyperventilating, I need you to answer some questions.@@@@@@@
+E10@@@Me tengo que ir, ¡chao!@I'm gonna go, bye!@@@@@@@
+@@@@@@@@@@@
+I1_Ev6_1_1@Constance@E11@V-vale, vale… Trataré de ser fuerte. Pregunta lo que quieras.@Okay, okay… I'm going to be strong. Alright, ask me anything.@@@@@idle@@
+@@@@@@@@@@@
+E11@@I1_Ev6_1_1_1@¿Quién te mató?@Who killed you?@@@@@@@
+E11@@I1_Ev6_1_1_2@¿Cuándo moriste?@When did you die?@@@@@@@
+E11@@I1_Ev6_1_1_3@Me tengo que ir, ¡chao!@I'm gonna go, bye!@@@@@@@
+@@@@@@@@@@@
+I1_Ev6_1_1_1@Constance@@… <color=#d36bfa>Doctor Fausto Osler.</color> Él me mató.@… Doctor Fausto Osler. He killed me.@@slow@@@@@
+I1_Ev6_1_1_1@Vivianne@@<color=#71a7f8>!</color>@!@@@@@@@
+I1_Ev6_1_1_1@Constance@@Ese hombre… Me hizo entrar al interior de su casa con una excusa barata.@That man… He make me go inside his home with a very cheap excuse.@@@@@@@
+I1_Ev6_1_1_1@Constance@@Me dijo que necesitaba que le ayudase con algo que podría salvar a su hija.@He told me that he needed me to assist him doing something that could save his daughter.@@@@@@@
+I1_Ev6_1_1_1@Constance@@Una vez dentro, me dijo que entrase a la habitación que había <color=#d36bfa>al fondo de la casa</color>.@Once inside, he told me to go to the room on the back of his home.@@@@@nervous@@
+I1_Ev6_1_1_1@Constance@@Y una vez ahí, me apuñaló <color=#d36bfa>en el corazón</color> y me cubrió la boca para que no pudiese gritar.@And right there, he stabed me in the heart and cover my mouth so I couldn't scream.@@@@@@@
+I1_Ev6_1_1_1@Constance@@Su hija lo vió todo. Creo que ella se traumatizó por ello.@Her daughter saw everything. I think she may be a bit traumatized by it all.@@@@@@@
+I1_Ev6_1_1_1@Constance@@Tras morir, perdí el conocimiento y cuando desperté, mi cuerpo estaba aquí, en el suelo de la calle.@After dying, I blacked out and when I woke up, my body was here, lying on the floor of the street.@@@@@@@
+I1_Ev6_1_1_1@Constance@E12@Qué destino tan cruel.@What a terrible fate.@@@@@idle@@
+@@@@@@@@@@@
+E12@@I1_Ev6_1_1_1_1@Lo siento.@I'm sorry@@@@@@@
+E12@@I1_Ev6_1_1_3@Me tengo que ir, ¡chao!@I'm gonna go, bye!@@@@@@@
+@@@@@@@@@@@
+I1_Ev6_1_1_1_1@Constance@@… Gracias.@… Thank you.@@@@@@@
+I1_Ev6_1_1_1_1@Constance@@Por favor, hazme justicia.@Please, bring me justice.@@@@@@@
+@@@@@@@@@@@
+I1_Ev6_1_1_2@Constance@@Fue anoche cuando sucedió. Yo estaba volviendo a casa después de cerrar el pub.@It was last night when it happened. I was going back home after closing the pub.@@@@@@@
+I1_Ev6_1_1_2@Constance@I1_Ev6_1_1_1@Ya sabes, tan solo dando un paseo, mirar a la luna… Cuando todo pasó.@You know, just going for a walk, looking at the moon… When everything happended.@@@@@@@
+@@@@@@@@@@@
+I1_Ev6_1_1_3@Constance@@… Oh@… Oh@@@@@@@
+@@@@@@@@@@@
+@@@CHARACTER: VANESSA (Fausto's daughter)@@@@@@@@
+@@@@@@@@@@@
+I1_Ev7@Vanessa@@*Cof* *Cof*@*cough* *cough*@@@*@@nervous@@
+I1_Ev7@Vivianne@@<color=#71a7f8>(Está tiritando y suda mucho.)</color>@<blue>(She's shaking and sweating a lot.)</blue>@@@@@@@
+@@@@@@@@@@@
+@@@CHARACTER: OWAIN (Spirit witness)@@@@@@@@
+@@@@@@@@@@@
+I1_Ev8@Owain@@Ese libro… Es suyo.@That book… It's his.@@@@@@@
+I1_Ev8@Owain@@Cuidado, no haría ninguna locura con él si fuese tú. Emana energía oscura. @Careful, I wouldn't do anything crazy with it if I were you. Dark energy emanates from it.@@@@@nervous@@
+I1_Ev8@Owain@@Utilízalo sabiamente. La mujer que murió hace poco merece justicia.@Use it wisely. The lady that was recently killed deserves justice.@@@@@@@
+@@@@@@@@@@@
+@@@CHARACTER: DOCTOR FAUSTO OSLER (Defendant) - at home@@@@@@@@
+@@@@@@@@@@@
+I1_Ev9@Dr. Fausto@@Lo siento, pero no puedes entrar a la <color=#d36bfa>habitación de mi hija</color>.@I'm sorry, but you can't go inside my daughter's room.@@@@@nervous@@
+I1_Ev9@Dr. Fausto@@Sé que estás aquí para investigarme, pero mi hija está enferma y no quiero@I know that you are here to investigate me, but my daughter is sick and I don't…@@@@@@@
+I1_Ev9@Dr. Fausto@@… que la molestes. Así que investígame a mí, pero no entres ahí.@… want you to disturb her. So investigate me, but don't go in there.@@@@@idle@@
+@@@@@@@@@@@
+@@@CHARACTER: DOCTOR FAUSTO OSLER (Defendant) - outside his home while walking@@@@@@@@
+@@@@@@@@@@@
+I1_Ev10@Dr. Fausto@@Perdona, pero no puedo hablar ahora mismo. Tengo prisa por volver a casa con mi hija.@Sorry, I can't talk right now. I'm in a hurry to go back home with my daughter.@@@@@@@
+@@@@@@@@@@@
+@@@CHARACTER: NPC #1 - Ramona@@@@@@@@
+@@@@@@@@@@@
+I1_Ev11@Ramona@@¿Alguna vez has oído la tragedia de Constanza la rubia?@Did you ever hear the tradegy of Constance the blonde?@@@@@@@
+I1_Ev11@Ramona@@He oído que la asesinaron ayer… ¡Pobre chica!@I heard she was murdered yesterday… Poor girl!@@@@@@@
+@@@@@@@@@@@
+@@@CHARACTER: NPC #2 - Rick@@@@@@@@
+@@@@@@@@@@@
+I1_Ev12@Rick@@¡No me puedo creer nada de lo que está sucediendo en este pueblo! He oído que ahora tenemos a una bruja investigándonos.@I can't believe anything that is going on in this town! I've heard we now have a witch investigating us.@@@@@@@
+I1_Ev12@Rick@@Es como… ¿En serio? ¿Quién es esa bruja? ¿Quién la ha puesto al mando?@Like… Really? Who's this person? Who put her in charge?@@@@@@@
+@@@@@@@@@@@
+@@@CHARACTER: NPC #3 - Lois@@@@@@@@
+@@@@@@@@@@@
+I1_Ev13@Lois@E13@Perdona… ¿Tú eres una bruja?@I'm sorry… Are you a witch?@@@@@@@
+@@@@@@@@@@@
+E13@@I1_Ev13_1@¿Sí?@Yes?@@@@@@@
+E13@@I1_Ev13_2@¿No?@No?@@@@@@@
+@@@@"""Yes?"""@@@@@@@
+I1_Ev13_1@Lois@@¡Entonces fuera de mi vista, sucia bruja!@Then get out of my sight, you dirty witch!@@@*@@angry@@
+@@@@"""No?"""@@@@@@@
+I1_Ev13_2@Lois@@… Yo sé quién eres, ¡BRUJA MENTIROSA!@… I know who you are, LIAR.@@@*@@angry@@
+@@@@@@@@@@@
+@@@CHARACTER: CLAUDE (merchant) - after player has Receipt evidence@@@@@@@@
+@@@@@@@@@@@
+I1_Ev14@Claude@@Con suerte, ese <color=#d36bfa>recibo</color> será de ayuda.@Hopefully that receipt will be helpful.@@@@@@@
+@@@@@@@@@@@
+@@@PROP: RED NOTEBOOK - forest@@@@@@@@
+@@@@@@@@@@@
+I1_Ev15@Vivianne@@<color=#71a7f8>(… Este libro… Describe magia negra y rituales profanos. ¿Por qué dejarlo en el medio del bosque?)</color>@<blue>(… This book… It describes dark magic and profane rituals. Why leave it in the middle of the forest?)</blue>@@@@@@@
+I1_Ev15@Vivianne@@<color=#71a7f8>(Espera, ¿qué es esto? Uno de estos rituales pide hacer un pentagrama, unas especias muy concretas y…)</color>@<blue>(Wait, what's this? One of the rituals requires a pentagram, a few very specific spices and…)</blue>@@@@@nervous@@
+I1_Ev15@Vivianne@@<color=#71a7f8>(… Matar a una mujer apuñalándole el corazón.)</color>@<blue>(… Killing a woman stabbing her in the heart.)</blue>@@slow@@@@@
+I1_Ev15@Vivianne@@<color=#71a7f8>(Voy a guardarme el cuaderno.)</color>@<blue>(I'm going to keep this.)</blue>@@@@@idle@@
+@@@@Player receives evidence: Red Notebook@@@@@@@
+@@@@@@@@@@@
+@@@PROP: LIBRARY - Dr. Fausto Osler's house@@@@@@@@
+@@@@@@@@@@@
+I1_Ev16@Vivianne@@Aquí es donde ayer… Bueno, técnicamente hoy… Donde encontré el libro sobre medicina que tengo como prueba.@This is where yesterday… I mean, technically today... I found that book about medicine that I had as evidence.@@@@@@@
+@@@@@@@@@@@
+@@@PROP: REGULAR INGREDIENTS - Dr. Fausto Osler's house@@@@@@@@
+@@@@@@@@@@@
+I1_Ev17@Vivianne@@Tan solo son ingredientes normales. No hay nada sospechoso.@These are just regular ingredients. Nothing suspicious.@@@@@@@
+@@@@@@@@@@@
+@@@CHARACTER: DOCTOR FAUSTO OSLER (Defendant) - outside his home red notebook think puzzle@@@@@@@@
+@@@@@@@@@@@
+I1_Ev18@Dr. Fausto@@Hola Viviana.@Hi, Vivianne.@@@@@@@
+I1_Ev18@Vivianne@@¿Me conoces?@You know me?@@@@@@@
+I1_Ev18@Dr. Fausto@@No, todavía no habíamos coincidido, pero he oído hablar mucho sobre ti. Soy el Doctor Fausto Osler, un placer.@No, we haven't met yet, but I've hear a lot about you. My name is Dr. Fausto Osler, my pleasure.@@@@@@@
+I1_Ev18@Dr. Fausto@@Sé que estás aquí para investigar el asesinato de esa pobre chica… Qué pena, era una buena persona.@I know you are here to investigate the murder of that poor girl… What a pity, she was a good person.@@@@@@@
+I1_Ev18@Vivianne@@...!@!@100/Escondido árbol muerto/Hidden dead tree@@@*@@@
+I1_Ev18@Vivianne@@<color=#71a7f8>(Estoy… Estoy detectando… Oh, no.)</color>@<blue>I'm… I'm sensing… Oh no.</blue>@@@@@@@
+I1_Ev18@Vivianne@E14@<color=#71a7f8>(Eso es que me está definitivamente ocultando algo gordo. Tal vez si consigo hacer que siga hablando pueda leerle la mente…)</color>@<blue>(He's definitely hidding something big from me. Maybe if I make him talk I can read his mind more clearly…)</blue>@@@@@@@
+@@@@@@@@@@@
+E14@@I1_Ev18_1@¿Entonces la gente de aquí habla de mí?@So… People are talking about me around here?@@@@@@@
+E14@@I1_Ev18_2@¿Conocías a Constanza?@You knew Constance?@@@@@@@
+E14@@I1_Ev18_3@Gracias por tu cooperación. Tengo que irme.@Thank you for your cooperation. I have to go.@@@@@@@
+@@@"""So… People are talking about me around here?"""@@@@@@@@
+I1_Ev18_1@Dr. Fausto@@Bueno… Ya sabes… Ver a una bruja en tu pueblo no es algo que se vea todos los días, precisamente.@Well… You know… Seeing a witch in your town it's not something that you see everyday, precisely.@@@@@@@
+I1_Ev18_1@Dr. Fausto@@¿Y una que públicamente lo sea y que encima está respaldada por la Inquisición? Eso es algo digno de ver.@And one that is publicly a witch and that is sort of endorsed by the Inquisition? That's a sight to behold.@@@@@@@
+I1_Ev18_1@Vivianne@E15@… Supongo que tienes razón.@… I guess you are right.@@@@@@@
+@@@@@@@@@@@
+E15@@I1_Ev18_2@Sobre lo que has dicho antes… ¿Conocías a Constanza?@About what you said before... You knew Constance?@@@@@@@
+E15@@I1_Ev18_3@Gracias por tu cooperación. Tengo que irme.@Thank you for your cooperation. I have to go.@@@@@@@
+@@@"""Oh! You knew Constance?"""@@@@@@@@
+I1_Ev18_2@Dr. Fausto@@¿Por qué lo dices?@Why would you say that?@@@@@@@
+I1_Ev18_2@Vivianne@@Bueno, acabas de decir que era una buena chica. He asumido que la conocías.@Well, you just said that she was a good girl. I assumed you knew her because of it.@@@@@@@
+I1_Ev18_2@Dr. Fausto@@Oh, eh, sí… Más o menos, pero solo de vista. No me atrevería a decir que la conocía personalmente.@Oh, eh, yes… Kind of. I wouldn't say exactly I knew her. I knew who she was but I didn't spend time with her.@80@@@@@@
+I1_Ev18_2@Vivianne@@<color=#71a7f8>(Guau! Creo que su secreto se ha hecho algo más claro. ¡Me estoy acercando a la verdad!)</color>@<blue>(Wow! Did his secret became a bit clearer? I'm getting closer to the truth!)</blue>@@@@@@@
+I1_Ev18_2@Dr. Fausto@@Trabajaba en el pub local. La veía allí. Era muy educada y considerada, incluso para una camarera.@She worked at the local pub. I saw her around there. She was very polite and considered, even for a waitress.@@@@@@@
+I1_Ev18_2@Dr. Fausto@E16@También era joven y… guapa, si me lo preguntas. No se merecía un final como este.@Also she was young and... Pretty, if you ask me. She didn't deserve an end like this.@@@@@@@
+@@@@@@@@@@@
+E16@@I1_Ev18_2_1@¿Un final como este?@An end like what?@@@@@@@
+E16@@I1_Ev18_2_1@¿Sabes algo de su asesinato?@Do you know anything about her murder?@@@@@@@
+E16@@I1_Ev18_3@Gracias por tu cooperación. Tengo que irme.@Thank you for your cooperation. I have to go.@@@@@@@
+@@@"""An end like what?"" / ""Do you know anything about her murder?"""@@@@@@@@
+I1_Ev18_2_1@Dr. Fausto@@Bueno, ella fue apuñalada en mitad de la noche, justo en la calle principal de este pueblo.@Well, she was stabbed in the middle of the night, right on this town's main street.@@@@@@@
+I1_Ev18_2_1@Dr. Fausto@@Tal vez alguien del pub estaba lo suficientemente borracho como intentar algo inapropiado con ella y se resistió…@Maybe someone from the pub was drunk enough to try something innapropiate with her and when she resisted…@@@@@@@
+I1_Ev18_2_1@Dr. Fausto@E17@Pero tan solo es mi teoría, no tengo ni idea de lo que ha pasado.@But that's just my theory, have no idea of what happened.@@@@@@@
+@@@@@@@@@@@
+E17@@I1_Ev18_2_1_1@¿Oíste algo sospechoso anoche?@Did you hear anything suspicious last night?@@@@@@@
+E17@@I1_Ev18_2_1_2@¿Cómo sabes que la apuñalaron?@How do you know that she was stabbed?@@@@@@@
+@@@"""Did you hear anything suspicious last night?"""@@@@@@@@
+I1_Ev18_2_1_1@Dr. Fausto@@… No, tan solo me imaginaba lo que pasó. No oí nada anoche. Estaba muy cansado y terminé durmiendo como un tronco.@… No, I was just imagining what happened. I didn't hear a thing last night. I was very tired and ended up profoundly asleep.@@@@@@@
+I1_Ev18_2_1_1@Vivianne@@¿Entonces cómo sabes que fue apuñalada aquí y no en otro lugar?@Then how do you know that she was stabbed here and not somewhere else?@@@@@@@
+I1_Ev18_2_1_1@Dr. Fausto@@¡Oh!@Oh!@60@@*@@nervous@@
+I1_Ev18_2_1_1@Vivianne@I1_Ev18_2_1_3@<color=#71a7f8>(Bien, eso me acerca más a la verdad.)@Nice, that made me closer to the truth!@@@@@@@
+@@@"""How do you know that she was stabbed?"""@@@@@@@@
+I1_Ev18_2_1_2@Dr. Fausto@@¡Oh!@Oh!@60@@@@nervous@@
+I1_Ev18_2_1_2@Vivianne@I1_Ev18_2_1_3@<color=#71a7f8>(Bien, eso me acerca más a la verdad.)@Nice, that made me closer to the truth!@@@@@@@
+@@@@@@@@@@@
+I1_Ev18_2_1_3@Dr. Fausto@@Bueno, ví la herida en el cuerpo, así que supongo que por eso lo sé.@Well, I saw the wound on the body, so I guess that's why I know about it.@@@@@@@
+I1_Ev18_2_1_3@Dr. Fausto@E18@Como dije, ayer estaba en casa y no noté nada extraño.@As I said, yesterday I was at home and I didn't notice anything strange.@@@@@@@
+@@@@@@@@@@@
+E18@@I1_Ev18_2_1_3_1@¿No saliste de casa para nada ayer?@You didn't leave your home at all yesterday?@@@@@@@
+E18@@I1_Ev18_2_1_3_2@¿Cuándo viste la herida?@When did you see the wound?@@@@@@@
+@@@@"""When did you see the wound?"""@@@@@@@
+I1_Ev18_2_1_3_2@Vivianne@@Es bastante curioso que sepas dónde estaba la herida, cuando el cuerpo de Constanza lleva cubierto con una manta desde esta mañana.@It's very curious that you know where the wound is, since the body of Constance has been covered with a blancket since this morning.@@@@@@@
+I1_Ev18_2_1_3_2@Vivianne@@¿Cómo puedes saber dónde recibió la puñalada entonces?@How could you know where was the wound?@@@@@@@
+I1_Ev18_2_1_3_2@Dr. Fausto@@Eh… Oh, bueno… No ví la herida en sí. Escuché a Gaspar, el inquisidor, hablar sobre ello.@Eh… Oh, well… Yeah, I didn't see the wound itself. I overheard Gaspar, the inquisitor, talking about it@55@@@@@@
+I1_Ev18_2_1_3_2@Dr. Fausto@@Tengo una imaginación bastante activa, así que me lo imaginé en mi cabeza, por eso pensaba que lo había visto. Perdón por la confusión.@I have a very vivid imagination, so I was able to picture it in my head, that's why I thought that I saw it. Sorry for the confusion@@@@@@@
+I1_Ev18_2_1_3_2@Vivianne@E19@Hum…@Hum…@@@@@@@
+@@@@@@@@@@@
+E19@@I1_Ev18_2_1_3_1@¿No saliste de casa para nada ayer?@You didn't leave your home at all yesterday?@@@@@@@
+@@@@"""You didn't leave your home at all yesterday?"""@@@@@@@
+I1_Ev18_2_1_3_1@Dr. Fausto@@… Bueno… Sí, lo hice. Fuí a la tienda a comprar unos ingredientes para hacer…@… Well… Yes, I did. I went to the store to buy some ingredients to make…@@@@@@@
+I1_Ev18_2_1_3_1@Dr. Fausto@@… las medicinas que necesita mi hija. Por supuesto.@… the medicines that my daughter needs. Of course.@0@@@@@@
+I1_Ev18_2_1_3_1@Vivianne@@<color=#71a7f8>(¡Te pillé! ¡Encontré suficientes mentiras en su testimonio para hacer que su subconsciente piense en su secreto!)</color>@<blue>('Gotcha! I found enough lies to make his subconscious think about his secret!)</blue>@@@*@*@@@
+I1_Ev18_2_1_3_1@Vivianne@@<color=#71a7f8>(Algo pasa con un árbol muerto… Creo que debería vigilar a este tipo, por si acaso.)</color>@<blue>('Something is up with a dead tree… I think that I should keep an eye on this guy, just in case.)</blue>@@@@@@@
+I1_Ev18_2_1_3_1@Vivianne@@Gracias por su tiempo, Doctor. Le dejo retomar sus quehaceres.@Thank you for your time, Doctor. I leave you to your duties.@@@@@@@
+@@@@@@@@@@@
+I1_Ev18_3@Vivianne@@Gracias por su tiempo, Doctor. Le dejo retomar sus quehaceres.@@@@@@@@
+@@@@@@@@@@@
+@@@PROP: INCRIMINATING SPICES - Dr. Fausto Osler's house (Vanessa's Room)@@@@@@@@
+@@@@@@@@@@@
+I1_Ev19@Vivianne@@<color=#71a7f8>(Estos son… no son los ingredientes necesarios para hacer la medicina de Vanessa.)</color>@<blue>(These are… These are not the ingredients required to make the medicine for Vanessa.)</blue>@@@@@nervous@@
+I1_Ev19@Vivianne@@<color=#71a7f8>(Son… los necesarios para invocar a un demonio. Dios…)</color>@<blue>(These are… The ones requiered to summon the Devil. Damn.)</blue>@@@@@@@
+@@@@Player receives evidence: Ritual spices@@@@@@@
+@@@@@@@@@@@
+@@@CHARACTER: VIVIANE - al entrar al cuarto de la niña@@@@@@@@
+I1_Ev20@Vivianne@@<color=#71a7f8>(Dios mío… ¿Qué ha pasado aquí?)</color>@<blue>(Damn… What the hell happened here?)</blue>@@@@@nervous@@
+I1_Ev20@Dr. Fausto@@<color=#71a7f8>(Eso es… ¿Un pentagrama invertido en el suelo?)</color>@<blue>(Is that… An inverted pentagram on the floor?)</blue>@@@@@@@
+@@@@@@@@@@@
+@@@CHARACTER: CLAUDE (merchant) - while he is talking to the Doctor@@@@@@@@
+@@@@@@@@@@@
+I1_Ev21@Claude@@Perdona, pero es su turno. Tienes que ponerte al final de la cola si quieres algo.@I'm sorry but it's his turn. You have to get in line if you want something.@@@@@@@
+@@@@@@@@@@@
+@@@CHARACTER: DOCTOR FAUSTO OSLER (Defendant) - outside his home while walking (after buying at the shop)@@@@@@@@
+@@@@@@@@@@@
+I1_Ev22@Dr. Fausto@@No puedo hablar ahora mismo. Tengo prisa por volver a casa con mi hija.@Sorry, I can't talk right now. I'm in a hurry to go back home with my daughter.@@@@@nervous@@
+@@@@@@@@@@@
+@@@CHARACTER: DOCTOR FAUSTO OSLER (Defendant) - outside his home while walking (before buying at the shop)@@@@@@@@
+@@@@@@@@@@@
+I1_Ev23@Dr. Fausto@@Perdona, pero no puedo hablar ahora mismo. No quiero que me cierren la tienda.@Sorry, I can't talk right now. I need to get to the shop before it closes.@@@@@@@
+@@@@@@@@@@@
+@@@CHARACTER: CLAUDE (merchant) - while he is walking from one point to another@@@@@@@@
+@@@@@@@@@@@
+I1_Ev24@Claude@@Perdona, ahora mismo tengo algo de prisa. Hablamos en otro momento.@@@@@@@@
+@@@@@@@@@@@
+@@@CHARACTER: DOCTOR FAUSTO OSLER (Defendant) - while shopping@@@@@@@@
+@@@@@@@@@@@
+I1_Ev25@Dr. Fausto@@¡Oye, espera tu turno! ¡Ahora estoy comprando yo!@@@@@@@@
